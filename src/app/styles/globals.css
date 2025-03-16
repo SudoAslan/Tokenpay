@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(33, 68, 98);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Geist', sans-serif; /* Beispiel für eine Schriftart */
+}
+
+h1 {
+  font-size: 1rem;  /* Beispiel für eine größere Schriftgröße */
+}
+
